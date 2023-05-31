@@ -29,6 +29,7 @@ function Stat({ label, value }: { label: string; value: number | string; }) {
 export default function NumberStats() {
   const form = useNumbersFormContext();
   const numbers = form.values.numbers.map((item) => item.num);
+  // console.log(numbers);
 
   return (
     <>
